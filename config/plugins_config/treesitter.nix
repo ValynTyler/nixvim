@@ -1,7 +1,7 @@
 {
-  plugins = {
-    treesitter.enable = true;
-    treesitter.settings = {
+  plugins.treesitter = {
+    enable = true;
+    settings = {
       auto_install = true;
       ensure_installed = [
         "rust"

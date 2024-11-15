@@ -1,7 +1,7 @@
 {
-  plugins = {
-    harpoon.enable = true;
-    harpoon.keymaps = {
+  plugins.harpoon = {
+    enable = true;
+    keymaps = {
       toggleQuickMenu = "<leader>hh";
       addFile = "<leader>ha";
       navFile = {
