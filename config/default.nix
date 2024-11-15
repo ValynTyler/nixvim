@@ -8,6 +8,9 @@
     # status line
     lualine.enable = true;
 
+    # lazygit
+    lazygit.enable = true;
+
     # lsp
     lsp.enable = true;
     lsp.servers = {
