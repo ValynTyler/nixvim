@@ -27,7 +27,7 @@
 
   globalOpts = {
     shiftwidth = 2;
-    scrolloff = 999;
+    scrolloff = 12;
   };
 
   globals.mapleader = " ";
