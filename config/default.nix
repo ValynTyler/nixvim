@@ -12,9 +12,6 @@
     # status line
     lualine.enable = true;
 
-    # lazygit
-    lazygit.enable = true;
-
     # undotree
     undotree.enable = true;
 
@@ -90,16 +87,6 @@
   };
 
   keymaps = [
-    # Open git client
-    {
-      mode = "n";
-      key = "<leader>gg";
-      action = "<cmd>LazyGit<CR>";
-      options = {
-        desc = "Open git client";
-      };
-    }
-    
     # Open Undotree
     {
       mode = "n";
