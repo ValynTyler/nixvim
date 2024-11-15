@@ -11,6 +11,9 @@
     # lazygit
     lazygit.enable = true;
 
+    # undotree
+    undotree.enable = true;
+
     # lsp
     lsp.enable = true;
     lsp.servers = {
@@ -50,6 +53,16 @@
       action = "<cmd>LazyGit<CR>";
       options = {
         desc = "Open git client";
+      };
+    }
+    
+    # Open Undotree
+    {
+      mode = "n";
+      key = "<leader>u";
+      action = "<cmd>UndotreeToggle<CR>";
+      options = {
+        desc = "Open Undotree";
       };
     }
   ];
