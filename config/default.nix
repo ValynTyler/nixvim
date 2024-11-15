@@ -1,6 +1,9 @@
 {
   # Import all your configuration modules here
-  imports = [ ./plugins ];
+  imports = [
+    ./plugins
+    ./keymaps.nix
+  ];
 
   colorschemes.gruvbox.enable = true;
 
@@ -105,16 +108,6 @@
   globals.mapleader = " ";
 
   keymaps = [
-    # Open explorer
-    {
-      mode = "n";
-      key = "<leader>e";
-      action = "<cmd>Explore<CR>";
-      options = {
-        desc = "Open explorer";
-      };
-    }
-
     # Open git client
     {
       mode = "n";
@@ -143,25 +136,6 @@
       options = {
         desc = "Open Telescope";
       };
-    } 
-
-    # Delete to void register
-    {
-      mode = [ "n" "v" ];
-      key = "<leader>d";
-      action = "\"_d";
-    }
-
-    # Move currently selected line with J and K
-    {
-      mode = "v";
-      key = "J";
-      action = ":m '>+1<CR>gv=gv";
-    }
-    {
-      mode = "v";
-      key = "K";
-      action = ":m '<-2<CR>gv=gv";
     }
   ];
 }
