@@ -14,6 +14,23 @@
     # undotree
     undotree.enable = true;
 
+    # telescope
+    telescope.enable = true;
+
+    # harpoon
+    harpoon.enable = true;
+    harpoon.keymaps = {
+      toggleQuickMenu = "<leader>hh";
+      addFile = "<leader>ha";
+      navFile = {
+	"1" = "<leader>h1";
+	"2" = "<leader>h2";
+	"3" = "<leader>h3";
+	"4" = "<leader>h4";
+      };
+      
+    };
+
     # lsp
     lsp.enable = true;
     lsp.servers = {
@@ -65,5 +82,15 @@
         desc = "Open Undotree";
       };
     }
+
+    # Open Telescope
+    {
+      mode = "n";
+      key = "<leader>ff";
+      action = "<cmd>Telescope find_files<CR>";
+      options = {
+        desc = "Open Telescope";
+      };
+    } 
   ];
 }
