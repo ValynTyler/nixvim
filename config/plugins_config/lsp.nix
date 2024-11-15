@@ -1,0 +1,16 @@
+{
+  plugins = {
+    # lsp
+    lsp.enable = true;
+    lsp.servers = {
+      lua_ls.enable = true;
+      nil_ls.enable = true;
+      gopls.enable = true;
+
+      # rust
+      rust_analyzer.enable = true;
+      rust_analyzer.installRustc = true;
+      rust_analyzer.installCargo = true;
+    };
+  };
+}

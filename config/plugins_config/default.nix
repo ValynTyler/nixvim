@@ -6,5 +6,6 @@
     ./harpoon.nix
     ./undotree.nix
     ./lazygit.nix
+    ./lsp.nix
   ];
 }
