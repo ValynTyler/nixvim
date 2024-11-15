@@ -1,6 +1,6 @@
 {
   # Import all your configuration modules here
-  imports = [ ./plugins/bufferline.nix ];
+  imports = [ ./plugins ];
 
   colorschemes.gruvbox.enable = true;
 
