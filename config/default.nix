@@ -69,8 +69,13 @@
   };
 
   globalOpts = {
-    shiftwidth = 2;
     scrolloff = 12;
+
+    # shiftwidth
+    shiftwidth = 2;
+    tabstop = 2;
+    softtabstop = 2;
+    expandtab = true;
 
     # numbers
     nu = true;
