@@ -22,7 +22,7 @@
     };
   };
 
-  globalOptions = {
+  globalOpts = {
     shiftwidth = 2;
     scrolloff = 999;
   };
