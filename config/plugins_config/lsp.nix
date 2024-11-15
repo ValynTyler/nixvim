@@ -1,8 +1,8 @@
 {
-  plugins = {
+  plugins.lsp = {
     # lsp
-    lsp.enable = true;
-    lsp.servers = {
+    enable = true;
+    servers = {
       lua_ls.enable = true;
       nil_ls.enable = true;
       gopls.enable = true;
