@@ -41,9 +41,6 @@
       hightlight.additional_vim_regex_highlighting = false;
     };
 
-    # telescope
-    telescope.enable = true;
-
     # lsp
     lsp.enable = true;
     lsp.servers = {
@@ -110,16 +107,6 @@
       action = "<cmd>UndotreeToggle<CR>";
       options = {
         desc = "Open Undotree";
-      };
-    }
-
-    # Open Telescope
-    {
-      mode = "n";
-      key = "<leader>ff";
-      action = "<cmd>Telescope find_files<CR>";
-      options = {
-        desc = "Open Telescope";
       };
     }
   ];
