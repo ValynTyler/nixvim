@@ -48,6 +48,10 @@
   globalOpts = {
     shiftwidth = 2;
     scrolloff = 12;
+
+    # numbers
+    nu = true;
+    rnu = true;
   };
 
   globals.mapleader = " ";
