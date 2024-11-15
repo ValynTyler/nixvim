@@ -158,5 +158,12 @@
         desc = "Open Telescope";
       };
     } 
+
+    # Delete to void register
+    {
+      mode = [ "n" "v" ];
+      key = "<leader>d";
+      action = "\"_d";
+    }
   ];
 }
