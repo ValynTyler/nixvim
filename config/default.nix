@@ -12,9 +12,6 @@
     # status line
     lualine.enable = true;
 
-    # undotree
-    undotree.enable = true;
-
     # treesitter
     treesitter.enable = true;
     treesitter.settings = {
@@ -85,16 +82,4 @@
       '';
     };
   };
-
-  keymaps = [
-    # Open Undotree
-    {
-      mode = "n";
-      key = "<leader>u";
-      action = "<cmd>UndotreeToggle<CR>";
-      options = {
-        desc = "Open Undotree";
-      };
-    }
-  ];
 }
