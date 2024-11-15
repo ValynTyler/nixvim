@@ -29,4 +29,28 @@
     shiftwidth = 2;
     scrolloff = 999;
   };
+
+  globals.mapleader = " ";
+
+  keymaps = [
+    # Open explorer
+    {
+      mode = "n";
+      key = "<leader>e";
+      action = "<cmd>Explore<CR>";
+      options = {
+        desc = "Open explorer";
+      };
+    }
+
+    # Open git client
+    {
+      mode = "n";
+      key = "<leader>gg";
+      action = "<cmd>LazyGit<CR>";
+      options = {
+        desc = "Open git client";
+      };
+    }
+  ];
 }
