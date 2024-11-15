@@ -1,7 +1,7 @@
 {
   # Import all your configuration modules here
   imports = [
-    ./plugins
+    ./plugins.nix
     ./options.nix
     ./keymaps.nix
   ];
@@ -9,9 +9,6 @@
   colorschemes.gruvbox.enable = true;
 
   plugins = {
-    # status line
-    lualine.enable = true;
-
     # treesitter
     treesitter.enable = true;
     treesitter.settings = {
