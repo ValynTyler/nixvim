@@ -19,17 +19,17 @@
     treesitter.settings = {
       auto_install = true;
       ensure_installed = [
-	"rust"
-	"go"
-	"nix"
-	"lua"
-	"vim"
-	"vimdoc"
-	"query"
-	"toml"
-	"yaml"
-	"markdown"
-	"markdown_inline"
+        "rust"
+        "go"
+        "nix"
+        "lua"
+        "vim"
+        "vimdoc"
+        "query"
+        "toml"
+        "yaml"
+        "markdown"
+        "markdown_inline"
       ];
 
       # highlight
