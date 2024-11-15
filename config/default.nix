@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./plugins
+    ./options.nix
     ./keymaps.nix
   ];
 
@@ -90,22 +91,6 @@
       '';
     };
   };
-
-  globalOpts = {
-    scrolloff = 12;
-
-    # shiftwidth
-    shiftwidth = 2;
-    tabstop = 2;
-    softtabstop = 2;
-    expandtab = true;
-
-    # numbers
-    nu = true;
-    rnu = true;
-  };
-
-  globals.mapleader = " ";
 
   keymaps = [
     # Open git client
