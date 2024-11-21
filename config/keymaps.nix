@@ -28,5 +28,12 @@
       key = "K";
       action = ":m '<-2<CR>gv=gv";
     }
+
+    # Copy to system clipboard
+    {
+      mode = [ "n" "v" ];
+      key = "<leader>y";
+      action = "\"+y";
+    }
   ];
 }
