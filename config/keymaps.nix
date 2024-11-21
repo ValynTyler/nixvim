@@ -17,6 +17,23 @@
       action = "\"_d";
     }
 
+    # Keep cursor vertically centered
+    {
+      mode = [ "n" "v" ];
+      key = "j";
+      action = "jzz";
+    }
+    {
+      mode = [ "n" "v" ];
+      key = "k";
+      action = "kzz";
+    }
+    {
+      mode = [ "n" "v" ];
+      key = "G";
+      action = "Gzz";
+    }
+
     # Move currently selected line with J and K
     {
       mode = "v";

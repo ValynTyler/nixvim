@@ -2,8 +2,6 @@
   globals.mapleader = " ";
 
   globalOpts = {
-    scrolloff = 12;
-
     # shiftwidth
     shiftwidth = 2;
     tabstop = 2;
