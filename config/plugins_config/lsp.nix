@@ -15,7 +15,6 @@
     
     # buffer-specific keymaps
     keymaps.lspBuf = {
-
       K = "hover";
       gd = "definition";
       gD = "declaration";
