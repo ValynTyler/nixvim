@@ -22,4 +22,8 @@
       hightlight.additional_vim_regex_highlighting = false;
     };
   };
+
+  filetype = {
+    extension."glsl" = "cpp";
+  };
 }
