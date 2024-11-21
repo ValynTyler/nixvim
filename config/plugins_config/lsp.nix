@@ -6,6 +6,7 @@
       lua_ls.enable = true;
       nil_ls.enable = true;
       gopls.enable = true;
+      emmet_ls.enable = true;
 
       # rust
       rust_analyzer.enable = true;
