@@ -3,9 +3,9 @@
     enable = true;
     autoEnableSources = true;
     settings.sources = [
-    { name = "nvim_lsp"; }
-    { name = "path"; }
-    { name = "buffer"; }
+      { name = "nvim_lsp"; }  # completion from language servers
+      { name = "path"; }      # completion system file structure
+      { name = "buffer"; }    # completion from current file (buffer)
     ];
     settings.mapping = {
       "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
