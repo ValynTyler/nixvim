@@ -13,5 +13,14 @@
     # numbers
     nu = true;
     rnu = true;
+
+    # clipboard
+    clipboard = {
+      providers = {
+        wl-copy.enable = true; # Wayland 
+        xsel.enable = true; # For X11
+      };
+      register = "unnamedplus";
+    };
   };
 }
