@@ -8,5 +8,6 @@
     ./lazygit.nix
     ./cmp.nix
     ./lsp.nix
+    ./vim-go.nix
   ];
 }
