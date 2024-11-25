@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   plugins.treesitter = {
     enable = true;
@@ -26,4 +28,7 @@
   filetype = {
     extension."glsl" = "cpp";
   };
+
+  extraPlugins = with pkgs; [ vimPlugins.playground ];
+  extraConfigLua = "";
 }
