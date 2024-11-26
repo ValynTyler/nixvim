@@ -2,5 +2,5 @@
 
 {
   extraPlugins = with pkgs; [ vimPlugins.vim-go ];
-  extraConfigLua = "";
+  extraConfigLua = "vim.g.go_fmt_autosave = 0";
 }
