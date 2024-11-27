@@ -4,6 +4,7 @@
     autoEnableSources = true;
     settings.sources = [
       { name = "nvim_lsp"; }  # completion from language servers
+      { name = "luasnip"; }   # completion from snippet engine
       { name = "path"; }      # completion system file structure
       { name = "buffer"; }    # completion from current file (buffer)
     ];
@@ -32,5 +33,11 @@
         end, { 'i', 's' })
       '';
     };
+    settings.snippet.expand = ''
+      function(args)
+        require('luasnip').lsp_expand(args.body)
+      end
+    '';
   };
+  plugins.cmp_luasnip.enable = true;
 }
