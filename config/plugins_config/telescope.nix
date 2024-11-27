@@ -16,9 +16,6 @@
       mode = "n";
       key = "<leader>fp";
       action = "<cmd>Telescope git_files<CR>";
-      options = {
-        desc = "Open Telescope";
-      };
     }
   ];
 }
