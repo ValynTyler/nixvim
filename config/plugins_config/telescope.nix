@@ -17,5 +17,11 @@
       key = "<leader>fp";
       action = "<cmd>Telescope git_files<CR>";
     }
+    # Fuzzyfind arbitrary sequence
+    {
+      mode = "n";
+      key = "<leader>fs";
+      action = "<cmd>Telescope live_grep<CR>";
+    }
   ];
 }
