@@ -13,7 +13,7 @@
     {
       mode = "n";
       key = "<leader>o";
-      action = "<CMD>Oil .<CR>";
+      action = "<CMD>Oil %:h<CR>";
     }
   ];
 }
