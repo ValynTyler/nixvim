@@ -8,4 +8,12 @@
       view_options.show_hidden = true;
     };
   };
+  keymaps = [
+    # Open Oil
+    {
+      mode = "n";
+      key = "<leader>o";
+      action = "<CMD>Oil .<CR>";
+    }
+  ];
 }
