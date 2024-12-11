@@ -1,8 +1,5 @@
 {
-  plugins = {
-    bufferline.enable = true;
-    web-devicons.enable = true;
-  };
+  plugins.bufferline.enable = true;
 
   keymaps = [
     { key = "<A-1>"; action = "<cmd>BufferLineGoToBuffer 1<CR>"; }
