@@ -6,6 +6,7 @@
       nil_ls.enable = true;
       gopls.enable = true;
       emmet_ls.enable = true;
+      ccls.enable = true;
 
       # rust
       rust_analyzer.enable = true;
