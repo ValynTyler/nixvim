@@ -10,7 +10,6 @@
     ./cmp.nix
     ./lsp.nix
     ./luasnip.nix
-    ./oil.nix
     ./lualine.nix
     ./commentary.nix
   ];
