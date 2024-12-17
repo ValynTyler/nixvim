@@ -12,5 +12,6 @@
     ./luasnip.nix
     ./lualine.nix
     ./commentary.nix
+    ./obsidian.nix
   ];
 }
