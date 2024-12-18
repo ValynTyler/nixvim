@@ -20,5 +20,8 @@
       };
       register = "unnamedplus";
     };
+
+    # conceal characters
+    conceallevel = 2;
   };
 }
