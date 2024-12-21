@@ -14,6 +14,7 @@
     ./luasnip.nix
     ./lualine.nix
     ./autopairs.nix
+    ./surround.nix
     ./commentary.nix
     ./obsidian.nix
   ];
