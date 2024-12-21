@@ -13,6 +13,7 @@
     ./lsp.nix
     ./luasnip.nix
     ./lualine.nix
+    ./autopairs.nix
     ./commentary.nix
     ./obsidian.nix
   ];
