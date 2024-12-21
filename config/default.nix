@@ -3,8 +3,8 @@
   imports = [
     ./plugins
     ./colorscheme.nix
-    ./options.nix
     ./keymaps.nix
+    ./options.nix
   ];
 
 }
