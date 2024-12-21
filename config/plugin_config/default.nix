@@ -7,6 +7,7 @@
     ./harpoon.nix
     ./undotree.nix
     ./lazygit.nix
+    ./noice.nix
     ./cmp.nix
     ./lsp.nix
     ./luasnip.nix
