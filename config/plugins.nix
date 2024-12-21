@@ -1,3 +1,0 @@
-{
-  imports = [ ./plugin_config ];
-}
