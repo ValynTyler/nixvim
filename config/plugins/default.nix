@@ -9,6 +9,7 @@
     ./lazygit.nix
     ./notify.nix
     ./noice.nix
+    ./cmp-cmdline.nix
     ./cmp.nix
     ./lsp.nix
     ./luasnip.nix

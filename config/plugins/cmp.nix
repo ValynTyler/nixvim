@@ -7,6 +7,7 @@
       { name = "luasnip"; }   # completion from snippet engine
       { name = "path"; }      # completion system file structure
       { name = "buffer"; }    # completion from current file (buffer)
+      { name = "cmdline"; }   # completion from available commands
     ];
     settings.mapping = {
       "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
