@@ -6,5 +6,4 @@
     ./keymaps.nix
     ./options.nix
   ];
-
 }
