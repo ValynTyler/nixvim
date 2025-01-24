@@ -18,5 +18,6 @@
     ./surround.nix
     ./commentary.nix
     ./obsidian.nix
+    ./godot.nix
   ];
 }
