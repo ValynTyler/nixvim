@@ -8,6 +8,10 @@
       emmet_ls.enable = true;
       ccls.enable = true;
 
+      # godot
+      gdscript.enable = true;
+      gdscript.package = null;
+
       # rust
       rust_analyzer.enable = true;
       rust_analyzer.installRustc = true;
