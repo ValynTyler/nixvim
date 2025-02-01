@@ -7,6 +7,7 @@
       gopls.enable = true;
       emmet_ls.enable = true;
       ccls.enable = true;
+      jdtls.enable = true;
 
       # godot
       gdscript.enable = true;
