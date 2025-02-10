@@ -8,6 +8,7 @@
       emmet_ls.enable = true;
       ccls.enable = true;
       jdtls.enable = true;
+      cssls.enable = true;
 
       # godot
       gdscript.enable = true;
