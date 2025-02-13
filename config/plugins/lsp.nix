@@ -9,6 +9,7 @@
       ccls.enable = true;
       jdtls.enable = true;
       cssls.enable = true;
+      eslint.enable = true;
 
       # godot
       gdscript.enable = true;
