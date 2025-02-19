@@ -17,6 +17,7 @@
     ./autopairs.nix
     ./surround.nix
     ./commentary.nix
+    ./vinegar.nix
     ./obsidian.nix
     ./godot.nix
   ];
