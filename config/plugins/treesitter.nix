@@ -17,6 +17,7 @@
         "bash"
         "toml"
         "yaml"
+        "just"
         "markdown"
         "markdown_inline"
       ];
