@@ -19,6 +19,7 @@
       rust_analyzer.enable = true;
       rust_analyzer.installRustc = true;
       rust_analyzer.installCargo = true;
+      rust_analyzer.installRustfmt = true;
     };
     
     # buffer-specific keymaps
