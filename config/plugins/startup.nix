@@ -1,0 +1,3 @@
+{
+  plugins.startup.enable = true;
+}

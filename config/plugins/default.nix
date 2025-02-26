@@ -7,6 +7,7 @@
     ./harpoon.nix
     ./undotree.nix
     ./lazygit.nix
+    ./startup.nix
     ./notify.nix
     ./noice.nix
     ./oil.nix
