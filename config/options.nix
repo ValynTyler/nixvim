@@ -21,6 +21,12 @@
       register = "unnamedplus";
     };
 
+    # undodir
+    swapfile = false;
+    backup = false;
+    # undodir = builtins.getEnv "HOME";
+    undofile = true;
+
     # conceal characters
     conceallevel = 2;
   };
