@@ -10,6 +10,7 @@
       jdtls.enable = true;
       cssls.enable = true;
       eslint.enable = true;
+      pyright.enable = true;
 
       # godot
       gdscript.enable = true;
